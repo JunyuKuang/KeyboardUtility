@@ -57,6 +57,20 @@ func setupKeyboardHighlightView() {
 3. Add the new framework as your other target's Linked Frameworks and Libraries
 4. `import KeyboardUtility`
 
+# Apps use KeyboardUtility
+
+## Aurora Dictionary 极光词典
+An elegant English-Chinese Chinese-English dictionary
+
+[App Store](https://itunes.apple.com/app/id1154746981?at=1001lmw6)
+  
+  
+## MessageFilter 短信过滤
+Block and filter spam SMS messages for iOS 11
+
+[App Store](https://itunes.apple.com/app/id1262898709?at=1001lmw6)
+
+
 # License - MIT
 Copyright (c) 2017 Junyu Kuang
 
