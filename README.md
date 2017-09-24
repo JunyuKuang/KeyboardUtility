@@ -7,12 +7,12 @@ https://youtu.be/w3BKTFrxs4I
 # Requirement
 - Xcode 9.0
 - Swift 4.0
-- iOS 9.0+ for auto keyboard frame observation with `UILayoutGuide`
+- iOS 9.0+ for auto keyboard frame observation with [UILayoutGuide](https://developer.apple.com/documentation/uikit/uilayoutguide)
 - iOS 8.0+ for manual keyboard frame observation
 
 # Usage
 
-Auto keyboard frame observation with `UILayoutGuide`:
+Auto keyboard frame observation with [UILayoutGuide](https://developer.apple.com/documentation/uikit/uilayoutguide):
 ``` swift
 let keyboardLayoutGuide = KeyboardLayoutGuide()
 view.addLayoutGuide(keyboardLayoutGuide)
