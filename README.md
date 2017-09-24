@@ -1,5 +1,5 @@
 # KeyboardUtility
-iOS keyboard frame real-time tracking.
+iOS keyboard frame real-time tracking. Support interactive keyboard dismissal and iPad undock keyboard.
 
 See demo video on YouTube:
 https://youtu.be/w3BKTFrxs4I
