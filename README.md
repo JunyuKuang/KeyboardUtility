@@ -51,6 +51,12 @@ func setupKeyboardHighlightView() {
 }
 ```
 
+# Installation
+1. Create a new Swift Cocoa Touch Framework in your project and name it KeyboardUtility;
+2. Drag 3 files `KeyboardFrameObserver.swift`, `KeyboardFrameObserversManager.swift`, `KeyboardLayoutGuide.swift` into the new KeyboardUtility folder that Xcode create for you
+3. Add the new framework as your other target's Linked Frameworks and Libraries
+4. `import KeyboardUtility`
+
 # License - MIT
 Copyright (c) 2017 Junyu Kuang
 
