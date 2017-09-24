@@ -51,6 +51,11 @@ func setupKeyboardHighlightView() {
 }
 ```
 
+**Limitation**
+
+`KeyboardLayoutGuide` is not supported on `UIScrollView`, which means you must add it to a non-scrollable view. 
+E.g. If you want to track keyboard frame in a `UITableViewController`, do not add it to `tableView`, instead, try add it to `navigationController.view`.
+
 # Installation
 1. Download KeyboardUtility
 2. Create a new **Swift Cocoa Touch Framework** in your project and name it KeyboardUtility
