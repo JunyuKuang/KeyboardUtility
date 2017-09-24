@@ -7,7 +7,7 @@ https://youtu.be/w3BKTFrxs4I
 # Requirement
 - Xcode 9.0
 - Swift 4.0
-- iOS 9.0+ for auto keyboard frame observation with UILayoutGuide
+- iOS 9.0+ for auto keyboard frame observation with `UILayoutGuide`
 - iOS 8.0+ for manual keyboard frame observation
 
 # Usage
@@ -32,7 +32,8 @@ NSLayoutConstraint.activate([
 
 Manual keyboard frame observation:
 ``` swift
-// strong reference the observer to make sure keyboard frame keep update to date.
+// Strong reference the observer to make sure keyboard frame keep update to date.
+// Will stop observation automatically when deinit.
 var keyboardFrameObserver: KeyboardFrameObserver?
 
 /// make keyboard backgroud red.
